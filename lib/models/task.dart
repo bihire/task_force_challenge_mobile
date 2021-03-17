@@ -5,7 +5,12 @@ class Task {
   final DateTime createDate;
   final DateTime modifiedDate;
 
-  Task({this.title, this.description, this.createDate,this.done, this.modifiedDate});
+  Task(
+      {required this.title,
+      required this.description,
+      required this.createDate,
+      required this.done,
+      required this.modifiedDate});
 }
 
 List<Task> demoTask = [];

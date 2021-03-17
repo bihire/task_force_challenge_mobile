@@ -8,6 +8,7 @@ class AddDescription extends StatelessWidget {
     return Container(
               padding: EdgeInsets.symmetric(horizontal: 20),
               child: CardLeadingTitle(
+                leadingIcon: null,
                 title: 'Add Descrition',
                 child: Container(
                     child: TextField(

@@ -6,11 +6,11 @@ class CardLeadingTitle extends StatelessWidget {
   final Widget child;
   final String title;
   final Color titleColor;
-  final IconData leadingIcon;
+  IconData? leadingIcon = null;
   CardLeadingTitle(
-      {@required this.child,
-      @required this.title,
-      this.leadingIcon,
+      {required this.child,
+      required this.title,
+      required this.leadingIcon,
       this.titleColor = const Color(0xFF000000),
       this.noChildPadding = false});
   @override

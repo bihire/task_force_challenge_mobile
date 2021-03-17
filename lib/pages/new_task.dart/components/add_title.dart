@@ -8,6 +8,7 @@ class AddTitle extends StatelessWidget {
     return Container(
               padding: EdgeInsets.symmetric(horizontal: 20),
               child: CardLeadingTitle(
+                leadingIcon: null,
                 title: 'Add title',
                 child: Container(
                     child: TextField(
